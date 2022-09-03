@@ -1,0 +1,29 @@
+#include <stdio.h>
+ int main()
+ {
+    int i,j,r,count;
+     count = 0;
+    printf("enter the no.:");
+    scanf("%d",&r);
+
+    for ( i = 0; i < r; i++)
+    {
+        /* code */
+        for ( j = 0; j <=i; j++)
+        {
+            /* code */
+            count++;
+            if (j!=0)
+            
+                /* code */
+               printf("*%d",count);
+            
+            else
+            printf("%d",count);
+
+        }
+        printf("\n");
+        
+    }
+    
+ }
