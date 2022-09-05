@@ -1,0 +1,28 @@
+#include<stdio.h>
+int main ()
+{
+    int n,r,temp,rev=0;
+    printf("enter the no.");
+    scanf("%d",&n);
+   temp=n;
+   while (temp>0)
+   {
+    /* code */
+    r=temp%10;
+    rev=(rev*10)+r;
+    temp=temp/10;
+   }
+if (n==rev)
+{
+    /* code */
+    printf("%d is palindrome",n);
+
+}
+else 
+{
+   printf("%d is not a palindrome",n);
+}
+   
+    }
+
+
